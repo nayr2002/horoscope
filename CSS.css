@@ -1,0 +1,31 @@
+h1, h2{
+    text-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+div.cool {
+    color: #7cfc00;
+    font-family: "Comic Sans MS";
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid lawngreen;
+    padding: 30px;
+    text-align: center;
+    color: lawngreen;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    cursor: none;
+}
+
+button:hover {
+    background-color: lawngreen;
+    color: darkgreen;
+}
