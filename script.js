@@ -25,6 +25,7 @@ function onSubmit(){
         var sign = determineSign(day, month);
         document.getElementById("sign").innerHTML = name + ", you are a " + getSign(sign);
         document.getElementById("text").innerHTML = getText(sign);
+        document.getElementById("pic").style.display = "inline-block";
         document.getElementById("pic").src = getPic(sign);
     }
 }
