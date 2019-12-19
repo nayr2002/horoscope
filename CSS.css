@@ -29,3 +29,7 @@ button:hover {
     background-color: lawngreen;
     color: darkgreen;
 }
+
+#pic {
+    display: none;
+}
